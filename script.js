@@ -3,11 +3,11 @@ let resultDisplayed = false;
 
 function appendToDisplay(input) {
     if (resultDisplayed) {
-        // Jeśli wynik jest wyświetlany i użytkownik wprowadza operator
+        
         if (['+', '-', '*', '/'].includes(input)) {
             display.value += input;
         } else {
-            // Jeśli wynik jest wyświetlany i użytkownik wprowadza cyfrę
+            
             display.value = input;
         }
         resultDisplayed = false; 
